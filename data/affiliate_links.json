@@ -1,23 +1,35 @@
 {
-    "brain-sleep": {
-        "url": "https://example.com/brain-sleep",
-        "note": "ブレインスリープ ピロー - A8/Rentracks/もしも等で取得したリンクに差し替え"
+    "rokkaku": {
+        "url": "https://px.a8.net/svt/ejp?a8mat=3N202O+3QK6FU+2DDC+5ZEMQ",
+        "note": "六角脳枕 - A8提携済み"
     },
-    "hitsuji": {
-        "url": "https://example.com/hitsuji",
-        "note": "ヒツジのいらない枕 - A8ネットで取得したリンクに差し替え"
+    "kenmin": {
+        "url": "https://px.a8.net/svt/ejp?a8mat=4AZGC6+D3JIU2+2DDC+AF3ATU",
+        "note": "健眠枕 - A8提携済み"
     },
-    "nishikawa": {
-        "url": "https://example.com/nishikawa",
-        "note": "西川 エアー4Dピロー - A8ネットで取得したリンクに差し替え"
+    "curere": {
+        "url": "https://px.a8.net/svt/ejp?a8mat=3HIII2+AYQLSQ+4GZK+5Z6WY",
+        "note": "Cure:Re THE MAKURA - A8提携済み"
     },
-    "tempur": {
-        "url": "https://example.com/tempur",
-        "note": "テンピュール - A8/Amazon等で取得したリンクに差し替え"
+    "survaq": {
+        "url": "https://px.a8.net/svt/ejp?a8mat=4AZGC6+D744GQ+573A+60OXE",
+        "note": "首と肩がホっとする枕PLUS - A8提携済み"
     },
-    "motton": {
-        "url": "https://example.com/motton",
-        "note": "モットン枕 - A8ネットで取得したリンクに差し替え"
+    "gokumin": {
+        "url": "https://px.a8.net/svt/ejp?a8mat=4AZGC6+CY6ME2+539S+5YJRM",
+        "note": "GOKUMIN - A8提携済み"
+    },
+    "mymakura": {
+        "url": "https://px.a8.net/svt/ejp?a8mat=4AZGC6+D9HUVU+3KHK+BWVTE",
+        "note": "マイまくら（オーダーメイド枕） - A8提携済み"
+    },
+    "yokone3b": {
+        "url": "https://px.a8.net/svt/ejp?a8mat=4AZGC6+D0KCT6+2HEW+64AT9E",
+        "note": "YOKONE3B - A8提携済み"
+    },
+    "recovery-sleep": {
+        "url": "https://px.a8.net/svt/ejp?a8mat=4AZGC6+D1R80Q+53VQ+5YJRM",
+        "note": "Recovery Sleep - A8提携済み"
     },
     "oyasumi-shop": {
         "url": "https://px.a8.net/svt/ejp?a8mat=4AZGC6+CZYX7E+5LHW+5YJRM",

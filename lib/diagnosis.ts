@@ -27,6 +27,7 @@ interface ConditionalReason {
 }
 
 // === 診断質問（7問）===
+// IDs: rokkaku, kenmin, curere, survaq, gokumin, mymakura, yokone3b, recovery-sleep, oyasumi-shop
 
 export const questions: Question[] = [
     {
@@ -38,22 +39,22 @@ export const questions: Question[] = [
             {
                 label: '仰向け',
                 icon: '🙆',
-                scores: { 'brain-sleep': 5, hitsuji: 4, nishikawa: 5, tempur: 3, motton: 5, 'oyasumi-shop': 3 },
+                scores: { rokkaku: 4, kenmin: 5, curere: 5, survaq: 4, gokumin: 4, mymakura: 4, yokone3b: 1, 'recovery-sleep': 4, 'oyasumi-shop': 3 },
             },
             {
                 label: '横向き',
                 icon: '🤲',
-                scores: { 'brain-sleep': 3, hitsuji: 3, nishikawa: 4, tempur: 5, motton: 4, 'oyasumi-shop': 4 },
+                scores: { rokkaku: 3, kenmin: 4, curere: 3, survaq: 3, gokumin: 3, mymakura: 4, yokone3b: 5, 'recovery-sleep': 3, 'oyasumi-shop': 3 },
             },
             {
                 label: 'うつ伏せ',
                 icon: '🙇',
-                scores: { 'brain-sleep': 4, hitsuji: 5, nishikawa: 2, tempur: 2, motton: 3, 'oyasumi-shop': 4 },
+                scores: { rokkaku: 3, kenmin: 3, curere: 2, survaq: 2, gokumin: 4, mymakura: 3, yokone3b: 2, 'recovery-sleep': 2, 'oyasumi-shop': 4 },
             },
             {
                 label: '寝返りが多い',
                 icon: '🔄',
-                scores: { 'brain-sleep': 5, hitsuji: 4, nishikawa: 3, tempur: 2, motton: 4, 'oyasumi-shop': 3 },
+                scores: { rokkaku: 5, kenmin: 5, curere: 3, survaq: 3, gokumin: 4, mymakura: 4, yokone3b: 2, 'recovery-sleep': 3, 'oyasumi-shop': 3 },
             },
         ],
     },
@@ -66,22 +67,22 @@ export const questions: Question[] = [
             {
                 label: '首こりがひどい',
                 icon: '😣',
-                scores: { 'brain-sleep': 3, hitsuji: 2, nishikawa: 5, tempur: 4, motton: 5, 'oyasumi-shop': 3 },
+                scores: { rokkaku: 3, kenmin: 3, curere: 5, survaq: 5, gokumin: 2, mymakura: 4, yokone3b: 2, 'recovery-sleep': 4, 'oyasumi-shop': 3 },
             },
             {
                 label: '肩こりがひどい',
                 icon: '😩',
-                scores: { 'brain-sleep': 3, hitsuji: 2, nishikawa: 5, tempur: 4, motton: 4, 'oyasumi-shop': 3 },
+                scores: { rokkaku: 4, kenmin: 3, curere: 5, survaq: 5, gokumin: 2, mymakura: 4, yokone3b: 3, 'recovery-sleep': 4, 'oyasumi-shop': 3 },
             },
             {
                 label: 'ストレートネック気味',
                 icon: '📱',
-                scores: { 'brain-sleep': 2, hitsuji: 1, nishikawa: 4, tempur: 3, motton: 5, 'oyasumi-shop': 3 },
+                scores: { rokkaku: 2, kenmin: 4, curere: 5, survaq: 3, gokumin: 2, mymakura: 5, yokone3b: 2, 'recovery-sleep': 2, 'oyasumi-shop': 3 },
             },
             {
                 label: '特に悩みはない',
                 icon: '😊',
-                scores: { 'brain-sleep': 5, hitsuji: 5, nishikawa: 3, tempur: 3, motton: 3, 'oyasumi-shop': 4 },
+                scores: { rokkaku: 4, kenmin: 4, curere: 2, survaq: 2, gokumin: 5, mymakura: 3, yokone3b: 4, 'recovery-sleep': 3, 'oyasumi-shop': 4 },
             },
         ],
     },
@@ -94,22 +95,22 @@ export const questions: Question[] = [
             {
                 label: 'とても気になる',
                 icon: '🥵',
-                scores: { 'brain-sleep': 5, hitsuji: 5, nishikawa: 3, tempur: 1, motton: 3, 'oyasumi-shop': 3 },
+                scores: { rokkaku: 5, kenmin: 3, curere: 2, survaq: 1, gokumin: 3, mymakura: 3, yokone3b: 3, 'recovery-sleep': 1, 'oyasumi-shop': 3 },
             },
             {
                 label: '少し気になる',
                 icon: '😅',
-                scores: { 'brain-sleep': 4, hitsuji: 4, nishikawa: 4, tempur: 2, motton: 3, 'oyasumi-shop': 3 },
+                scores: { rokkaku: 4, kenmin: 4, curere: 3, survaq: 2, gokumin: 4, mymakura: 3, yokone3b: 3, 'recovery-sleep': 2, 'oyasumi-shop': 3 },
             },
             {
                 label: 'あまり気にならない',
                 icon: '😌',
-                scores: { 'brain-sleep': 3, hitsuji: 3, nishikawa: 4, tempur: 5, motton: 4, 'oyasumi-shop': 3 },
+                scores: { rokkaku: 3, kenmin: 4, curere: 4, survaq: 4, gokumin: 4, mymakura: 4, yokone3b: 4, 'recovery-sleep': 4, 'oyasumi-shop': 3 },
             },
             {
                 label: '冷え性で寒いくらい',
                 icon: '🥶',
-                scores: { 'brain-sleep': 2, hitsuji: 2, nishikawa: 3, tempur: 5, motton: 4, 'oyasumi-shop': 3 },
+                scores: { rokkaku: 1, kenmin: 3, curere: 3, survaq: 5, gokumin: 3, mymakura: 3, yokone3b: 3, 'recovery-sleep': 5, 'oyasumi-shop': 3 },
             },
         ],
     },
@@ -122,22 +123,22 @@ export const questions: Question[] = [
             {
                 label: '柔らかめが好き',
                 icon: '☁️',
-                scores: { 'brain-sleep': 2, hitsuji: 3, nishikawa: 2, tempur: 5, motton: 2, 'oyasumi-shop': 4 },
+                scores: { rokkaku: 3, kenmin: 3, curere: 2, survaq: 4, gokumin: 3, mymakura: 4, yokone3b: 3, 'recovery-sleep': 4, 'oyasumi-shop': 4 },
             },
             {
                 label: '普通がいい',
                 icon: '⚖️',
-                scores: { 'brain-sleep': 4, hitsuji: 4, nishikawa: 4, tempur: 3, motton: 4, 'oyasumi-shop': 3 },
+                scores: { rokkaku: 4, kenmin: 5, curere: 3, survaq: 3, gokumin: 5, mymakura: 4, yokone3b: 4, 'recovery-sleep': 4, 'oyasumi-shop': 3 },
             },
             {
                 label: '硬めが好き',
                 icon: '🪨',
-                scores: { 'brain-sleep': 4, hitsuji: 3, nishikawa: 5, tempur: 1, motton: 5, 'oyasumi-shop': 3 },
+                scores: { rokkaku: 3, kenmin: 3, curere: 5, survaq: 2, gokumin: 3, mymakura: 4, yokone3b: 3, 'recovery-sleep': 2, 'oyasumi-shop': 3 },
             },
             {
                 label: 'こだわりはない',
                 icon: '🤷',
-                scores: { 'brain-sleep': 4, hitsuji: 4, nishikawa: 3, tempur: 3, motton: 3, 'oyasumi-shop': 5 },
+                scores: { rokkaku: 3, kenmin: 3, curere: 3, survaq: 3, gokumin: 4, mymakura: 5, yokone3b: 3, 'recovery-sleep': 3, 'oyasumi-shop': 5 },
             },
         ],
     },
@@ -150,22 +151,22 @@ export const questions: Question[] = [
             {
                 label: '低めがいい',
                 icon: '⬇️',
-                scores: { 'brain-sleep': 4, hitsuji: 4, nishikawa: 3, tempur: 3, motton: 4, 'oyasumi-shop': 4 },
+                scores: { rokkaku: 4, kenmin: 3, curere: 3, survaq: 3, gokumin: 4, mymakura: 4, yokone3b: 3, 'recovery-sleep': 3, 'oyasumi-shop': 3 },
             },
             {
                 label: '普通がいい',
                 icon: '➡️',
-                scores: { 'brain-sleep': 4, hitsuji: 4, nishikawa: 4, tempur: 4, motton: 3, 'oyasumi-shop': 3 },
+                scores: { rokkaku: 4, kenmin: 4, curere: 4, survaq: 4, gokumin: 4, mymakura: 3, yokone3b: 4, 'recovery-sleep': 4, 'oyasumi-shop': 3 },
             },
             {
                 label: '高めがいい',
                 icon: '⬆️',
-                scores: { 'brain-sleep': 3, hitsuji: 3, nishikawa: 4, tempur: 4, motton: 4, 'oyasumi-shop': 3 },
+                scores: { rokkaku: 3, kenmin: 4, curere: 4, survaq: 3, gokumin: 3, mymakura: 4, yokone3b: 4, 'recovery-sleep': 3, 'oyasumi-shop': 3 },
             },
             {
                 label: '自分で細かく調整したい',
                 icon: '🔧',
-                scores: { 'brain-sleep': 2, hitsuji: 1, nishikawa: 4, tempur: 2, motton: 5, 'oyasumi-shop': 3 },
+                scores: { rokkaku: 2, kenmin: 3, curere: 2, survaq: 2, gokumin: 3, mymakura: 5, yokone3b: 2, 'recovery-sleep': 2, 'oyasumi-shop': 4 },
             },
         ],
     },
@@ -178,22 +179,22 @@ export const questions: Question[] = [
             {
                 label: '〜1万円くらい',
                 icon: '💴',
-                scores: { 'brain-sleep': 1, hitsuji: 3, nishikawa: 1, tempur: 2, motton: 5, 'oyasumi-shop': 5 },
+                scores: { rokkaku: 2, kenmin: 3, curere: 1, survaq: 2, gokumin: 5, mymakura: 1, yokone3b: 2, 'recovery-sleep': 2, 'oyasumi-shop': 5 },
             },
             {
                 label: '1〜2万円くらい',
                 icon: '💵',
-                scores: { 'brain-sleep': 2, hitsuji: 5, nishikawa: 3, tempur: 4, motton: 4, 'oyasumi-shop': 4 },
+                scores: { rokkaku: 5, kenmin: 5, curere: 2, survaq: 4, gokumin: 4, mymakura: 2, yokone3b: 5, 'recovery-sleep': 4, 'oyasumi-shop': 4 },
             },
             {
                 label: '2〜3万円くらい',
                 icon: '💶',
-                scores: { 'brain-sleep': 4, hitsuji: 4, nishikawa: 5, tempur: 5, motton: 3, 'oyasumi-shop': 3 },
+                scores: { rokkaku: 4, kenmin: 4, curere: 4, survaq: 4, gokumin: 3, mymakura: 4, yokone3b: 4, 'recovery-sleep': 4, 'oyasumi-shop': 3 },
             },
             {
                 label: '3万円以上でもOK',
                 icon: '💎',
-                scores: { 'brain-sleep': 5, hitsuji: 4, nishikawa: 5, tempur: 5, motton: 2, 'oyasumi-shop': 2 },
+                scores: { rokkaku: 3, kenmin: 3, curere: 5, survaq: 3, gokumin: 2, mymakura: 5, yokone3b: 3, 'recovery-sleep': 4, 'oyasumi-shop': 2 },
             },
         ],
     },
@@ -206,22 +207,22 @@ export const questions: Question[] = [
             {
                 label: '睡眠の質を上げたい',
                 icon: '😴',
-                scores: { 'brain-sleep': 5, hitsuji: 3, nishikawa: 4, tempur: 4, motton: 3, 'oyasumi-shop': 3 },
+                scores: { rokkaku: 4, kenmin: 4, curere: 4, survaq: 3, gokumin: 3, mymakura: 4, yokone3b: 3, 'recovery-sleep': 5, 'oyasumi-shop': 3 },
             },
             {
                 label: '肩こり・首こりを改善したい',
                 icon: '🏥',
-                scores: { 'brain-sleep': 3, hitsuji: 2, nishikawa: 5, tempur: 4, motton: 5, 'oyasumi-shop': 3 },
+                scores: { rokkaku: 3, kenmin: 3, curere: 5, survaq: 5, gokumin: 2, mymakura: 4, yokone3b: 3, 'recovery-sleep': 3, 'oyasumi-shop': 3 },
             },
             {
                 label: '通気性・清潔さ重視',
                 icon: '🌬️',
-                scores: { 'brain-sleep': 5, hitsuji: 5, nishikawa: 3, tempur: 1, motton: 3, 'oyasumi-shop': 3 },
+                scores: { rokkaku: 5, kenmin: 3, curere: 2, survaq: 1, gokumin: 4, mymakura: 3, yokone3b: 3, 'recovery-sleep': 1, 'oyasumi-shop': 4 },
             },
             {
                 label: 'コスパ重視',
                 icon: '🏷️',
-                scores: { 'brain-sleep': 1, hitsuji: 3, nishikawa: 2, tempur: 3, motton: 5, 'oyasumi-shop': 5 },
+                scores: { rokkaku: 3, kenmin: 4, curere: 1, survaq: 3, gokumin: 5, mymakura: 1, yokone3b: 3, 'recovery-sleep': 3, 'oyasumi-shop': 5 },
             },
         ],
     },
@@ -230,113 +231,58 @@ export const questions: Question[] = [
 // === 条件付きマッチ理由 ===
 
 const conditionalReasons: Record<string, ConditionalReason[]> = {
-    'brain-sleep': [
-        {
-            condition: (a) => a[2] === 0,
-            text: '暑さ・蒸れが気になるあなたに最適。ブレインスリープは90%以上がエアーで構成された超通気性素材で、頭の深部体温を下げて最速で深い眠りへ導きます。',
-        },
-        {
-            condition: (a) => a[6] === 0,
-            text: '睡眠の質を最重視するあなたにぴったり。スタンフォード大学の睡眠研究から生まれた独自の3層構造が、科学的に入眠を速め、深い睡眠をサポートします。',
-        },
-        {
-            condition: (a) => a[0] === 3,
-            text: '寝返りが多いあなたに。ブレインスリープの3層構造は寝返りにもしなやかにフィットし、どの体勢でも頭をしっかりサポートします。',
-        },
-        {
-            condition: () => true,
-            text: 'スタンフォード大学の睡眠研究に基づく次世代枕。独自の超通気性素材が、入眠時の深部体温を下げて最速で深い眠りへ導きます。',
-        },
+    rokkaku: [
+        { condition: (a) => a[2] === 0, text: '暑さ・蒸れが気になるあなたに最適。六角脳枕のヒンヤリ冷感素材が頭を快適にクールダウンし、寝苦しさを解消します。' },
+        { condition: (a) => a[0] === 3, text: '寝返りが多いあなたに。六角脳枕の独自六角形カット構造は寝返りがスムーズにでき、途中で目覚めることなく朝までぐっすり。' },
+        { condition: (a) => a[6] === 2, text: '通気性を重視するあなたにぴったり。冷感素材と独自構造で、頭をひんやり快適に保ちます。' },
+        { condition: () => true, text: 'ナイツも絶賛の冷感安眠枕。独自の六角形構造とヒンヤリ素材で、頭を快適にクールダウンし、寝返りもスムーズです。' },
     ],
-    hitsuji: [
-        {
-            condition: (a) => a[2] === 0,
-            text: '暑さ・蒸れが最も気になるあなたに。ヒツジのいらない枕は活性炭配合の3D構造で、抜群の通気性と消臭効果を実現。汗をかいても快適に眠れます。',
-        },
-        {
-            condition: (a) => a[6] === 2,
-            text: '清潔さを重視するあなたにぴったり。活性炭の消臭効果と丸洗いOKの素材で、いつでも清潔な状態を保てます。',
-        },
-        {
-            condition: (a) => a[0] === 2,
-            text: 'うつ伏せ寝のあなたに相性抜群。3Dポリマー構造が頭を点で支えるので、うつ伏せでも圧迫感が少なく快適です。',
-        },
-        {
-            condition: () => true,
-            text: '活性炭×3D構造の革新的な枕。通気性と消臭効果に優れ、水洗い可能で清潔。独特のハマる寝心地が新感覚です。',
-        },
+    kenmin: [
+        { condition: (a) => a[0] === 3, text: '寝返りが多いあなたにぴったり。健眠枕は「寝返りのしやすさ」を追求した設計で、スムーズな寝返りをサポートします。' },
+        { condition: (a) => a[0] === 0, text: '仰向け寝のあなたに。健眠枕は正しい寝姿勢を維持する設計で、自然な首のカーブをキープしながら快適な仰向け寝をサポートします。' },
+        { condition: (a) => a[6] === 3, text: 'コスパも品質も譲れないあなたに。健眠枕はワンランク上の寝心地をお手頃価格で実現した実力派です。' },
+        { condition: () => true, text: '「寝返りのしやすさ」と「正しい寝姿勢」を両立したワンランク上の枕。人間工学に基づく設計で毎晩の睡眠を格上げします。' },
     ],
-    nishikawa: [
-        {
-            condition: (a) => a[1] === 0 || a[1] === 1,
-            text: '首こり・肩こりに悩むあなたに。西川エアー4Dの特殊構造が頭・首・肩を点で支え、負担を分散。大谷翔平選手も愛用する実力派です。',
-        },
-        {
-            condition: (a) => a[6] === 1,
-            text: '肩こり改善を最優先するあなたにぴったり。450年の歴史を持つ西川の独自4D構造が、首と肩への圧力を的確に分散してくれます。',
-        },
-        {
-            condition: (a) => a[4] === 3,
-            text: '高さをカスタマイズしたいあなたに。西川エアー4Dは高さ調整シート付きで、自分にぴったりの高さを見つけられます。',
-        },
-        {
-            condition: () => true,
-            text: '450年の歴史ある東京西川のエアーブランド。4D構造が頭と首をピンポイントで支え、自然な寝姿勢をサポートします。',
-        },
+    curere: [
+        { condition: (a) => a[1] === 0 || a[1] === 1, text: '首こり・肩こりに悩むあなたに。Cure:Re THE MAKURAは整体師が開発した特許取得の整体枕。毎晩が整体のようなケアタイムになります。' },
+        { condition: (a) => a[1] === 2, text: 'ストレートネック対策に。整体のプロが開発したCure:Re THE MAKURAが、首と頭を最適なポジションにサポートし、根本からケアします。' },
+        { condition: (a) => a[6] === 1, text: '肩こり改善を最優先するあなたに。特許取得の整体構造が、整体に通うような効果を毎晩の睡眠で実現します。' },
+        { condition: () => true, text: '整体師が開発した特許取得の整体枕。プロも認める本格構造で、首と頭を最適ポジションにサポートします。' },
     ],
-    tempur: [
-        {
-            condition: (a) => a[0] === 1,
-            text: '横向き寝のあなたに最適。テンピュールの低反発素材が体温と体圧に反応して完璧にフィットし、横向きでも肩や首への負担を最小限にします。',
-        },
-        {
-            condition: (a) => a[3] === 0,
-            text: '柔らかい枕が好きなあなたにぴったり。テンピュールのNASA由来の低反発素材が、包み込むような至福の寝心地を提供します。',
-        },
-        {
-            condition: (a) => a[2] === 3,
-            text: '冷え性のあなたに。テンピュールは体温に反応して形が変わる素材で、適度な保温性があり、冬でも心地よく眠れます。',
-        },
-        {
-            condition: () => true,
-            text: 'NASA由来の低反発素材のパイオニア。世界98カ国、1億個以上の販売実績が証明する、唯一無二のフィット感をお試しください。',
-        },
+    survaq: [
+        { condition: (a) => a[2] === 3, text: '冷え性のあなたに最適。首と肩がホっとする枕PLUSは温熱機能で首と肩をじんわり温め、血行を促進してリラックスさせます。' },
+        { condition: (a) => a[1] === 0 || a[1] === 1, text: '首こり・肩こりに悩むあなたに。温熱効果で筋肉のこわばりをほぐし、首と肩をリラックスさせながら快適な眠りへ導きます。' },
+        { condition: (a) => a[6] === 1, text: '肩こり改善を重視するあなたに。温めて癒すコンセプトで、筋肉の緊張をほぐしながら快適な睡眠をサポートします。' },
+        { condition: () => true, text: '温めて癒す、新しいコンセプトの枕。温熱機能が首と肩をじんわり温め、血行を促進してリラックスした睡眠へ導きます。' },
     ],
-    motton: [
-        {
-            condition: (a) => a[1] === 2,
-            text: 'ストレートネック対策ならモットン枕。50通りの高さ調整で自然な首のカーブを維持し、スマホ首によるお悩みの改善をサポートします。90日間返金保証付き。',
-        },
-        {
-            condition: (a) => a[4] === 3,
-            text: '高さを自分で調整したいあなたに最適。モットン枕は6枚の調整シートで50通りの高さに対応。あなたにぴったりの高さが必ず見つかります。',
-        },
-        {
-            condition: (a) => a[6] === 3,
-            text: 'コスパを重視するあなたにぴったり。1万円台で50通りの高さ調整＋90日間返金保証。リスクゼロで最高の枕が手に入ります。',
-        },
-        {
-            condition: () => true,
-            text: '50通りの高さ調整×高反発素材×90日間返金保証。自分に合う枕に出会えなかった方にこそ試してほしい、日本人の体型に合わせた枕です。',
-        },
+    gokumin: [
+        { condition: (a) => a[5] === 0, text: '予算を抑えたいあなたに最適。GOKUMINは高品質なのにお手頃価格で、数々のアワードを受賞した実力派ブランドです。' },
+        { condition: (a) => a[6] === 3, text: 'コスパを最重視するあなたにぴったり。受賞実績多数のGOKUMINなら、お手頃価格で品質に裏付けされた枕が手に入ります。' },
+        { condition: (a) => a[1] === 3, text: '特に悩みがなく快適に寝たいあなたに。GOKUMINは万能型の実力派で、どんな寝姿勢にもバランスよくフィットします。' },
+        { condition: () => true, text: '入賞実績多数の実力派ブランド。高品質なのにお手頃価格で、初めての「ちゃんとした枕」にも最適です。' },
+    ],
+    mymakura: [
+        { condition: (a) => a[4] === 3, text: '高さを自分で調整したいあなたに最適。マイまくらなら、あなたの頭の形・首の高さを計測して完全オーダーメイドで作成。既製品では得られない究極のフィット感を実現します。' },
+        { condition: (a) => a[1] === 2, text: 'ストレートネック対策に。オーダーメイドだからこそ、あなたの首のカーブに合わせた最適な枕が手に入ります。' },
+        { condition: (a) => a[5] === 3, text: '予算をかけても最高の枕が欲しいあなたに。特許取得のオーダーメイド製法で、世界にひとつだけのあなた専用の枕を。' },
+        { condition: () => true, text: '特許取得のオーダーメイド枕。あなたの頭の形・首の高さを計測して作る、世界にひとつだけの枕です。' },
+    ],
+    yokone3b: [
+        { condition: (a) => a[0] === 1, text: '横向き寝のあなたに最適。YOKONE3Bは横向き寝専用設計で、顔のシワや肌荒れもサポート。いびき対策にも効果的です。' },
+        { condition: (a) => a[6] === 2, text: '通気性と美容を意識するあなたに。YOKONE3Bは横向きで寝ても顔に跡がつきにくく、肌荒れ対策にもなります。' },
+        { condition: () => true, text: '横向き寝に特化した専用設計枕。顔のシワや肌荒れをサポートし、いびき対策にも効果的。美容と睡眠を両立します。' },
+    ],
+    'recovery-sleep': [
+        { condition: (a) => a[2] === 3, text: '冷え性のあなたに最適。Recovery Sleepの温熱効果が体を芯から温め、冷えによる寝つきの悪さを改善します。' },
+        { condition: (a) => a[6] === 0, text: '睡眠の質を上げたいあなたに。遠赤外線効果で寝ている間に体をリカバリーし、翌朝のスッキリ感が違います。' },
+        { condition: (a) => a[1] === 0 || a[1] === 1, text: '首こり・肩こりに悩むあなたに。温熱効果が血行を促進し、寝ている間に体をじんわりとケアします。' },
+        { condition: () => true, text: '温熱効果のある特殊素材で睡眠をアップデート。遠赤外線が体を芯から温め、寝ている間の疲労回復をサポートします。' },
     ],
     'oyasumi-shop': [
-        {
-            condition: (a) => a[3] === 3,
-            text: '好みのこだわりが定まっていないあなたにぴったり。枕専門店なら素材・高さ・硬さ別に豊富なラインナップから、実際に比較しながらベストな一品を見つけられます。',
-        },
-        {
-            condition: (a) => a[5] === 0,
-            text: '予算を抑えたいあなたに。枕専門店なら1,000円台から高級枕まで幅広い価格帯の枕が揃っており、予算に合わせてぴったりの枕を選べます。',
-        },
-        {
-            condition: (a) => a[6] === 3,
-            text: 'コスパを重視するあなたに最適。専門店だからこそ、同じ価格帯でもこだわりの品質の枕が揃っています。用途別に探せるので無駄なく選べます。',
-        },
-        {
-            condition: () => true,
-            text: '枕に特化した専門店だからこその豊富な品揃え。素材・高さ・硬さ・用途別にあなたに合う枕を探せます。抱き枕や足枕など特殊な枕もラインナップ。',
-        },
+        { condition: (a) => a[3] === 3, text: '好みのこだわりが定まっていないあなたにぴったり。枕専門店なら素材・高さ・硬さ別に豊富なラインナップから、実際に比較しながらベストな一品を見つけられます。' },
+        { condition: (a) => a[5] === 0, text: '予算を抑えたいあなたに。枕専門店なら1,000円台から高級枕まで幅広い価格帯の枕が揃っており、予算に合わせてぴったりの枕を選べます。' },
+        { condition: (a) => a[6] === 3, text: 'コスパを重視するあなたに最適。専門店だからこそ、同じ価格帯でもこだわりの品質の枕が揃っています。用途別に探せるので無駄なく選べます。' },
+        { condition: () => true, text: '枕に特化した専門店だからこその豊富な品揃え。素材・高さ・硬さ・用途別にあなたに合う枕を探せます。抱き枕や足枕など特殊な枕もラインナップ。' },
     ],
 };
 
