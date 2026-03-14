@@ -10,5 +10,5 @@ export const SITE_CONFIG = {
     gradientTo: '#8b5cf6',
     targetAudience: '睡眠に悩みを抱える20〜50代',
     questionCount: 7,
-    url: 'https://pillow-match.vercel.app',
+    url: 'https://pillow-diagnosis.vercel.app',
 } as const;
