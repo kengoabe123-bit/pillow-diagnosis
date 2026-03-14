@@ -4,10 +4,10 @@ import { useState, useCallback, useEffect, useRef } from 'react';
 import { questions, calculateResults, DiagnosisResult } from '@/lib/diagnosis';
 import { SITE_CONFIG } from '@/lib/config';
 
-type Phase = 'intro' | 'questions' | 'results';
+type Phase = 'questions' | 'results';
 
 export default function DiagnosisPage() {
-    const [phase, setPhase] = useState<Phase>('intro');
+    const [phase, setPhase] = useState<Phase>('questions');
     const [currentQuestion, setCurrentQuestion] = useState(0);
     const [answers, setAnswers] = useState<number[]>([]);
     const [results, setResults] = useState<DiagnosisResult[]>([]);
@@ -42,12 +42,7 @@ export default function DiagnosisPage() {
         }
     }, [phase]);
 
-    const handleStart = useCallback(() => {
-        setPhase('questions');
-        setCurrentQuestion(0);
-        setAnswers([]);
-        setAnimationClass('animate-slide-in');
-    }, []);
+
 
     const handleAnswer = useCallback(
         (optionIndex: number) => {
@@ -87,12 +82,7 @@ export default function DiagnosisPage() {
     }, [currentQuestion]);
 
     const handleRestart = useCallback(() => {
-        setPhase('intro');
-        setCurrentQuestion(0);
-        setAnswers([]);
-        setResults([]);
-        setDisplayRates([0, 0, 0]);
-        window.scrollTo({ top: 0, behavior: 'smooth' });
+        window.location.href = '/';
     }, []);
 
     const handleShare = useCallback(
@@ -114,24 +104,6 @@ export default function DiagnosisPage() {
         [results]
     );
 
-    if (phase === 'intro') {
-        return (
-            <section className="intro-section">
-                <div className="intro-content">
-                    <h1>安心して眠れる毎日を、<br />あなたに。</h1>
-                    <p>7つの質問に答えるだけで、あなたにピッタリの枕がわかります。</p>
-                    <div className="intro-features">
-                        <span className="intro-feature">約30秒で完了</span>
-                        <span className="intro-feature">7問の簡単な質問</span>
-                        <span className="intro-feature">個人情報不要</span>
-                    </div>
-                    <button className="btn-primary" onClick={handleStart} id="start-diagnosis">
-                        無料で診断する
-                    </button>
-                </div>
-            </section>
-        );
-    }
 
     if (phase === 'questions') {
         const question = questions[currentQuestion];
