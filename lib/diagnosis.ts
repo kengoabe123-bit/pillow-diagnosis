@@ -38,22 +38,22 @@ export const questions: Question[] = [
             {
                 label: '仰向け',
                 icon: '🙆',
-                scores: { 'brain-sleep': 5, hitsuji: 4, nishikawa: 5, tempur: 3, motton: 5 },
+                scores: { 'brain-sleep': 5, hitsuji: 4, nishikawa: 5, tempur: 3, motton: 5, 'oyasumi-shop': 3 },
             },
             {
                 label: '横向き',
                 icon: '🤲',
-                scores: { 'brain-sleep': 3, hitsuji: 3, nishikawa: 4, tempur: 5, motton: 4 },
+                scores: { 'brain-sleep': 3, hitsuji: 3, nishikawa: 4, tempur: 5, motton: 4, 'oyasumi-shop': 4 },
             },
             {
                 label: 'うつ伏せ',
                 icon: '🙇',
-                scores: { 'brain-sleep': 4, hitsuji: 5, nishikawa: 2, tempur: 2, motton: 3 },
+                scores: { 'brain-sleep': 4, hitsuji: 5, nishikawa: 2, tempur: 2, motton: 3, 'oyasumi-shop': 4 },
             },
             {
                 label: '寝返りが多い',
                 icon: '🔄',
-                scores: { 'brain-sleep': 5, hitsuji: 4, nishikawa: 3, tempur: 2, motton: 4 },
+                scores: { 'brain-sleep': 5, hitsuji: 4, nishikawa: 3, tempur: 2, motton: 4, 'oyasumi-shop': 3 },
             },
         ],
     },
@@ -66,22 +66,22 @@ export const questions: Question[] = [
             {
                 label: '首こりがひどい',
                 icon: '😣',
-                scores: { 'brain-sleep': 3, hitsuji: 2, nishikawa: 5, tempur: 4, motton: 5 },
+                scores: { 'brain-sleep': 3, hitsuji: 2, nishikawa: 5, tempur: 4, motton: 5, 'oyasumi-shop': 3 },
             },
             {
                 label: '肩こりがひどい',
                 icon: '😩',
-                scores: { 'brain-sleep': 3, hitsuji: 2, nishikawa: 5, tempur: 4, motton: 4 },
+                scores: { 'brain-sleep': 3, hitsuji: 2, nishikawa: 5, tempur: 4, motton: 4, 'oyasumi-shop': 3 },
             },
             {
                 label: 'ストレートネック気味',
                 icon: '📱',
-                scores: { 'brain-sleep': 2, hitsuji: 1, nishikawa: 4, tempur: 3, motton: 5 },
+                scores: { 'brain-sleep': 2, hitsuji: 1, nishikawa: 4, tempur: 3, motton: 5, 'oyasumi-shop': 3 },
             },
             {
                 label: '特に悩みはない',
                 icon: '😊',
-                scores: { 'brain-sleep': 5, hitsuji: 5, nishikawa: 3, tempur: 3, motton: 3 },
+                scores: { 'brain-sleep': 5, hitsuji: 5, nishikawa: 3, tempur: 3, motton: 3, 'oyasumi-shop': 4 },
             },
         ],
     },
@@ -94,22 +94,22 @@ export const questions: Question[] = [
             {
                 label: 'とても気になる',
                 icon: '🥵',
-                scores: { 'brain-sleep': 5, hitsuji: 5, nishikawa: 3, tempur: 1, motton: 3 },
+                scores: { 'brain-sleep': 5, hitsuji: 5, nishikawa: 3, tempur: 1, motton: 3, 'oyasumi-shop': 3 },
             },
             {
                 label: '少し気になる',
                 icon: '😅',
-                scores: { 'brain-sleep': 4, hitsuji: 4, nishikawa: 4, tempur: 2, motton: 3 },
+                scores: { 'brain-sleep': 4, hitsuji: 4, nishikawa: 4, tempur: 2, motton: 3, 'oyasumi-shop': 3 },
             },
             {
                 label: 'あまり気にならない',
                 icon: '😌',
-                scores: { 'brain-sleep': 3, hitsuji: 3, nishikawa: 4, tempur: 5, motton: 4 },
+                scores: { 'brain-sleep': 3, hitsuji: 3, nishikawa: 4, tempur: 5, motton: 4, 'oyasumi-shop': 3 },
             },
             {
                 label: '冷え性で寒いくらい',
                 icon: '🥶',
-                scores: { 'brain-sleep': 2, hitsuji: 2, nishikawa: 3, tempur: 5, motton: 4 },
+                scores: { 'brain-sleep': 2, hitsuji: 2, nishikawa: 3, tempur: 5, motton: 4, 'oyasumi-shop': 3 },
             },
         ],
     },
@@ -122,22 +122,22 @@ export const questions: Question[] = [
             {
                 label: '柔らかめが好き',
                 icon: '☁️',
-                scores: { 'brain-sleep': 2, hitsuji: 3, nishikawa: 2, tempur: 5, motton: 2 },
+                scores: { 'brain-sleep': 2, hitsuji: 3, nishikawa: 2, tempur: 5, motton: 2, 'oyasumi-shop': 4 },
             },
             {
                 label: '普通がいい',
                 icon: '⚖️',
-                scores: { 'brain-sleep': 4, hitsuji: 4, nishikawa: 4, tempur: 3, motton: 4 },
+                scores: { 'brain-sleep': 4, hitsuji: 4, nishikawa: 4, tempur: 3, motton: 4, 'oyasumi-shop': 3 },
             },
             {
                 label: '硬めが好き',
                 icon: '🪨',
-                scores: { 'brain-sleep': 4, hitsuji: 3, nishikawa: 5, tempur: 1, motton: 5 },
+                scores: { 'brain-sleep': 4, hitsuji: 3, nishikawa: 5, tempur: 1, motton: 5, 'oyasumi-shop': 3 },
             },
             {
                 label: 'こだわりはない',
                 icon: '🤷',
-                scores: { 'brain-sleep': 4, hitsuji: 4, nishikawa: 3, tempur: 3, motton: 3 },
+                scores: { 'brain-sleep': 4, hitsuji: 4, nishikawa: 3, tempur: 3, motton: 3, 'oyasumi-shop': 5 },
             },
         ],
     },
@@ -150,22 +150,22 @@ export const questions: Question[] = [
             {
                 label: '低めがいい',
                 icon: '⬇️',
-                scores: { 'brain-sleep': 4, hitsuji: 4, nishikawa: 3, tempur: 3, motton: 4 },
+                scores: { 'brain-sleep': 4, hitsuji: 4, nishikawa: 3, tempur: 3, motton: 4, 'oyasumi-shop': 4 },
             },
             {
                 label: '普通がいい',
                 icon: '➡️',
-                scores: { 'brain-sleep': 4, hitsuji: 4, nishikawa: 4, tempur: 4, motton: 3 },
+                scores: { 'brain-sleep': 4, hitsuji: 4, nishikawa: 4, tempur: 4, motton: 3, 'oyasumi-shop': 3 },
             },
             {
                 label: '高めがいい',
                 icon: '⬆️',
-                scores: { 'brain-sleep': 3, hitsuji: 3, nishikawa: 4, tempur: 4, motton: 4 },
+                scores: { 'brain-sleep': 3, hitsuji: 3, nishikawa: 4, tempur: 4, motton: 4, 'oyasumi-shop': 3 },
             },
             {
                 label: '自分で細かく調整したい',
                 icon: '🔧',
-                scores: { 'brain-sleep': 2, hitsuji: 1, nishikawa: 4, tempur: 2, motton: 5 },
+                scores: { 'brain-sleep': 2, hitsuji: 1, nishikawa: 4, tempur: 2, motton: 5, 'oyasumi-shop': 3 },
             },
         ],
     },
@@ -178,22 +178,22 @@ export const questions: Question[] = [
             {
                 label: '〜1万円くらい',
                 icon: '💴',
-                scores: { 'brain-sleep': 1, hitsuji: 3, nishikawa: 1, tempur: 2, motton: 5 },
+                scores: { 'brain-sleep': 1, hitsuji: 3, nishikawa: 1, tempur: 2, motton: 5, 'oyasumi-shop': 5 },
             },
             {
                 label: '1〜2万円くらい',
                 icon: '💵',
-                scores: { 'brain-sleep': 2, hitsuji: 5, nishikawa: 3, tempur: 4, motton: 4 },
+                scores: { 'brain-sleep': 2, hitsuji: 5, nishikawa: 3, tempur: 4, motton: 4, 'oyasumi-shop': 4 },
             },
             {
                 label: '2〜3万円くらい',
                 icon: '💶',
-                scores: { 'brain-sleep': 4, hitsuji: 4, nishikawa: 5, tempur: 5, motton: 3 },
+                scores: { 'brain-sleep': 4, hitsuji: 4, nishikawa: 5, tempur: 5, motton: 3, 'oyasumi-shop': 3 },
             },
             {
                 label: '3万円以上でもOK',
                 icon: '💎',
-                scores: { 'brain-sleep': 5, hitsuji: 4, nishikawa: 5, tempur: 5, motton: 2 },
+                scores: { 'brain-sleep': 5, hitsuji: 4, nishikawa: 5, tempur: 5, motton: 2, 'oyasumi-shop': 2 },
             },
         ],
     },
@@ -206,22 +206,22 @@ export const questions: Question[] = [
             {
                 label: '睡眠の質を上げたい',
                 icon: '😴',
-                scores: { 'brain-sleep': 5, hitsuji: 3, nishikawa: 4, tempur: 4, motton: 3 },
+                scores: { 'brain-sleep': 5, hitsuji: 3, nishikawa: 4, tempur: 4, motton: 3, 'oyasumi-shop': 3 },
             },
             {
                 label: '肩こり・首こりを改善したい',
                 icon: '🏥',
-                scores: { 'brain-sleep': 3, hitsuji: 2, nishikawa: 5, tempur: 4, motton: 5 },
+                scores: { 'brain-sleep': 3, hitsuji: 2, nishikawa: 5, tempur: 4, motton: 5, 'oyasumi-shop': 3 },
             },
             {
                 label: '通気性・清潔さ重視',
                 icon: '🌬️',
-                scores: { 'brain-sleep': 5, hitsuji: 5, nishikawa: 3, tempur: 1, motton: 3 },
+                scores: { 'brain-sleep': 5, hitsuji: 5, nishikawa: 3, tempur: 1, motton: 3, 'oyasumi-shop': 3 },
             },
             {
                 label: 'コスパ重視',
                 icon: '🏷️',
-                scores: { 'brain-sleep': 1, hitsuji: 3, nishikawa: 2, tempur: 3, motton: 5 },
+                scores: { 'brain-sleep': 1, hitsuji: 3, nishikawa: 2, tempur: 3, motton: 5, 'oyasumi-shop': 5 },
             },
         ],
     },
@@ -318,6 +318,24 @@ const conditionalReasons: Record<string, ConditionalReason[]> = {
         {
             condition: () => true,
             text: '50通りの高さ調整×高反発素材×90日間返金保証。自分に合う枕に出会えなかった方にこそ試してほしい、日本人の体型に合わせた枕です。',
+        },
+    ],
+    'oyasumi-shop': [
+        {
+            condition: (a) => a[3] === 3,
+            text: '好みのこだわりが定まっていないあなたにぴったり。枕専門店なら素材・高さ・硬さ別に豊富なラインナップから、実際に比較しながらベストな一品を見つけられます。',
+        },
+        {
+            condition: (a) => a[5] === 0,
+            text: '予算を抑えたいあなたに。枕専門店なら1,000円台から高級枕まで幅広い価格帯の枕が揃っており、予算に合わせてぴったりの枕を選べます。',
+        },
+        {
+            condition: (a) => a[6] === 3,
+            text: 'コスパを重視するあなたに最適。専門店だからこそ、同じ価格帯でもこだわりの品質の枕が揃っています。用途別に探せるので無駄なく選べます。',
+        },
+        {
+            condition: () => true,
+            text: '枕に特化した専門店だからこその豊富な品揃え。素材・高さ・硬さ・用途別にあなたに合う枕を探せます。抱き枕や足枕など特殊な枕もラインナップ。',
         },
     ],
 };

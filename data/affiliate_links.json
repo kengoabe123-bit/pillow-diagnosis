@@ -18,5 +18,9 @@
     "motton": {
         "url": "https://example.com/motton",
         "note": "モットン枕 - A8ネットで取得したリンクに差し替え"
+    },
+    "oyasumi-shop": {
+        "url": "https://px.a8.net/svt/ejp?a8mat=4AZGC6+CZYX7E+5LHW+5YJRM",
+        "note": "枕と眠りのおやすみショップ！ - A8提携済み"
     }
 }
