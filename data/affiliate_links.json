@@ -1,0 +1,22 @@
+{
+    "brain-sleep": {
+        "url": "https://example.com/brain-sleep",
+        "note": "ブレインスリープ ピロー - A8/Rentracks/もしも等で取得したリンクに差し替え"
+    },
+    "hitsuji": {
+        "url": "https://example.com/hitsuji",
+        "note": "ヒツジのいらない枕 - A8ネットで取得したリンクに差し替え"
+    },
+    "nishikawa": {
+        "url": "https://example.com/nishikawa",
+        "note": "西川 エアー4Dピロー - A8ネットで取得したリンクに差し替え"
+    },
+    "tempur": {
+        "url": "https://example.com/tempur",
+        "note": "テンピュール - A8/Amazon等で取得したリンクに差し替え"
+    },
+    "motton": {
+        "url": "https://example.com/motton",
+        "note": "モットン枕 - A8ネットで取得したリンクに差し替え"
+    }
+}
