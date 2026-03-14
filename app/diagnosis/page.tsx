@@ -198,9 +198,6 @@ export default function DiagnosisPage() {
                             <div className="result-card-body">
                                 <h3 className="result-name">{result.service.name}</h3>
                                 <p className="result-tagline">{result.service.tagline}</p>
-                                <div className="age-tags">
-                                    {result.service.targetAge.map((age) => (<span key={age} className="age-tag">{age}</span>))}
-                                </div>
                                 <div className="reason-box">
                                     <div className="reason-label">あなたの回答に基づくおすすめ理由</div>
                                     <div className="reason-text">{result.reason}</div>
