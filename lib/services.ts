@@ -52,7 +52,7 @@ export const services: Service[] = [
             '今の枕で肩こりが改善しない人',
         ],
         affiliateUrl: 'https://px.a8.net/svt/ejp?a8mat=3N202O+3QK6FU+2DDC+5ZEMQ',
-        ctaText: '公式サイトで詳しく見る',
+        ctaText: '詳細を見る',
         color: '#0ea5e9',
     },
     {
@@ -89,7 +89,7 @@ export const services: Service[] = [
             '今の枕では寝心地がイマイチな人',
         ],
         affiliateUrl: 'https://px.a8.net/svt/ejp?a8mat=4AZGC6+D3JIU2+2DDC+AF3ATU',
-        ctaText: '公式サイトで詳しく見る',
+        ctaText: '詳細を見る',
         color: '#10b981',
     },
     {
@@ -126,7 +126,7 @@ export const services: Service[] = [
             '高くても本当に効果のある枕が欲しい人',
         ],
         affiliateUrl: 'https://px.a8.net/svt/ejp?a8mat=3HIII2+AYQLSQ+4GZK+5Z6WY',
-        ctaText: '公式サイトで詳しく見る',
+        ctaText: '詳細を見る',
         color: '#ef4444',
     },
     {
@@ -163,7 +163,7 @@ export const services: Service[] = [
             '冬場の寝つきが悪い人',
         ],
         affiliateUrl: 'https://px.a8.net/svt/ejp?a8mat=4AZGC6+D744GQ+573A+60OXE',
-        ctaText: '公式サイトで詳しく見る',
+        ctaText: '詳細を見る',
         color: '#f97316',
     },
     {
@@ -200,7 +200,7 @@ export const services: Service[] = [
             'まずはお手頃に試してみたい人',
         ],
         affiliateUrl: 'https://px.a8.net/svt/ejp?a8mat=4AZGC6+CY6ME2+539S+5YJRM',
-        ctaText: '公式サイトで詳しく見る',
+        ctaText: '詳細を見る',
         color: '#6366f1',
     },
     {
@@ -237,7 +237,7 @@ export const services: Service[] = [
             '長く使える一生ものの枕が欲しい人',
         ],
         affiliateUrl: 'https://px.a8.net/svt/ejp?a8mat=4AZGC6+D9HUVU+3KHK+BWVTE',
-        ctaText: 'オーダーメイド枕を見る',
+        ctaText: '詳細を見る',
         color: '#8b5cf6',
     },
     {
@@ -274,7 +274,7 @@ export const services: Service[] = [
             '美容も意識した枕選びがしたい人',
         ],
         affiliateUrl: 'https://px.a8.net/svt/ejp?a8mat=4AZGC6+D0KCT6+2HEW+64AT9E',
-        ctaText: '公式サイトで詳しく見る',
+        ctaText: '詳細を見る',
         color: '#ec4899',
     },
     {
@@ -311,7 +311,7 @@ export const services: Service[] = [
             '寝ながら体のケアをしたい人',
         ],
         affiliateUrl: 'https://px.a8.net/svt/ejp?a8mat=4AZGC6+D1R80Q+53VQ+5YJRM',
-        ctaText: '公式サイトで詳しく見る',
+        ctaText: '詳細を見る',
         color: '#f59e0b',
     },
     {
@@ -348,7 +348,7 @@ export const services: Service[] = [
             '枕選びに詳しいアドバイスが欲しい人',
         ],
         affiliateUrl: 'https://px.a8.net/svt/ejp?a8mat=4AZGC6+CZYX7E+5LHW+5YJRM',
-        ctaText: '枕専門店で探す',
+        ctaText: '詳細を見る',
         color: '#14b8a6',
     },
 ];
