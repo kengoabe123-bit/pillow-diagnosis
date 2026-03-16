@@ -394,7 +394,7 @@ body {
    ============================== */
 
 .results-section {
-  padding: 40px 20px 60px;
+  padding: 80px 20px 60px;
   background: var(--bg-light);
   display: flex;
   flex-direction: column;
