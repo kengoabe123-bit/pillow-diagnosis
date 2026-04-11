@@ -3,12 +3,16 @@ import { Noto_Sans_JP } from 'next/font/google';
 import './globals.css';
 import { Header } from '@/components/Header';
 import { Footer } from '@/components/Footer';
+import { WebsiteSchema } from '@/components/StructuredData';
 
 const notoSansJP = Noto_Sans_JP({
   subsets: ['latin'],
   weight: ['400', '500', '600', '700', '900'],
   display: 'swap',
 });
+
+const SITE_NAME = '理想の枕診断';
+const SITE_URL = 'https://pillow-diagnosis.vercel.app';
 
 export const metadata: Metadata = {
   title: 'PillowMatch - あなたにピッタリの枕を30秒で診断',
@@ -39,6 +43,11 @@ export default function RootLayout({
   return (
     <html lang="ja">
       <body className={notoSansJP.className}>
+        <WebsiteSchema
+          siteName={SITE_NAME}
+          siteUrl={SITE_URL}
+          description="あなたにぴったりの枕が見つかる無料診断テストです。質問に答えるだけで、あなたの睡眠スタイルに最適な枕をTOP3でレコメンドします。"
+        />
         <Header />
         {children}
         <Footer />
