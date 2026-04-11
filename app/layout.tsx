@@ -19,7 +19,7 @@ export const metadata: Metadata = {
   description:
     '30秒の無料診断であなたに最適な枕が見つかる。睡眠の悩みや寝姿勢に合わせて、5つの人気枕からベストマッチを提案します。',
   verification: {
-    google: 'Mlqh5zm0FnokIIIavzUIGMbvBVSdL-3x8VQhTys_fuQ',
+    google: 'MIqh5zm0FnokIIIavzUIGMbvBVSdL-3x8VQhTys_fuQ',
   },
   openGraph: {
     title: 'PillowMatch - あなたにピッタリの枕を30秒で診断',
