@@ -11,7 +11,7 @@ export default function ServicesPage() {
         <div style={{
             minHeight: '100vh',
             background: 'linear-gradient(180deg, #0a0a1a 0%, #1a1a2e 50%, #16213e 100%)',
-            padding: '2rem 1rem',
+            padding: '5rem 1rem 2rem',
         }}>
             <div style={{ maxWidth: '800px', margin: '0 auto' }}>
                 <h1 style={{
