@@ -918,11 +918,7 @@ body {
    Article Page
    ============================== */
 
-.article-page {
-  padding: 80px 20px 60px;
-  max-width: 720px;
-  margin: 0 auto;
-}
+.article-page { padding: 0; }
 
 .article-content {
   background: var(--bg-white);
