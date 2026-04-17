@@ -277,8 +277,8 @@ export default async function ArticlePage({ params }: PageProps) {
   const midPoint = Math.floor(article.sections.length / 2);
 
   return (
-    <main className="article-page" style={maxWidth: 'none', padding: 0}>
-      <div className="article-layout" style={display: 'grid', gridTemplateColumns: '1fr 300px', gap: '2.25rem', maxWidth: '1200px', margin: '0 auto', padding: '2rem 1.5rem', alignItems: 'start'}>
+    <main className="article-page" style={{maxWidth: 'none', padding: 0}}>
+      <div className="article-layout" style={{display: 'grid', gridTemplateColumns: '1fr 300px', gap: '2.25rem', maxWidth: '1200px', margin: '0 auto', padding: '2rem 1.5rem', alignItems: 'start'}}>
         {/* メインコンテンツ */}
         <article className="article-content">
           <header className="article-header">
