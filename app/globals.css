@@ -2007,3 +2007,25 @@ html {
     display: none; /* デスクトップではサイドバー目次を表示 */
   }
 }
+
+/* ============================================
+   FORCE OVERRIDE: 旧テンプレートCSS無効化
+   ============================================ */
+.article-page {
+  max-width: none !important;
+  padding: 0 !important;
+}
+
+.article-layout {
+  display: grid !important;
+  grid-template-columns: 1fr 300px !important;
+  max-width: 1200px;
+}
+
+@media (max-width: 900px) {
+  .article-layout {
+    display: flex !important;
+    grid-template-columns: none !important;
+    flex-direction: column;
+  }
+}
