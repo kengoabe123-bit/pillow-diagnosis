@@ -1321,3 +1321,455 @@ body {
   .footer-nav { gap: 10px; }
   .footer-nav a { font-size: 0.7rem; }
 }
+
+
+/* ============================================
+   Blog Article - Sidebar + Rich Layout
+   ============================================ */
+
+/* レイアウト */
+.article-layout {
+  display: flex;
+  gap: 2rem;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 2rem 1rem;
+}
+
+.article-content {
+  flex: 1;
+  min-width: 0;
+  max-width: 780px;
+}
+
+/* ---- Article Header ---- */
+.article-header {
+  margin-bottom: 2rem;
+}
+
+.article-header-meta {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  margin-bottom: 0.75rem;
+  font-size: 0.85rem;
+  color: #888;
+}
+
+.article-header-category {
+  display: inline-block;
+  background: var(--color-primary, #3b82f6);
+  color: #fff;
+  padding: 0.15rem 0.6rem;
+  border-radius: 4px;
+  font-size: 0.75rem;
+  font-weight: 600;
+}
+
+.article-header h1 {
+  font-size: 1.75rem;
+  line-height: 1.4;
+  margin-bottom: 0.75rem;
+}
+
+.article-header-description {
+  color: #666;
+  font-size: 0.95rem;
+  line-height: 1.6;
+}
+
+.article-updated {
+  color: #999;
+  font-size: 0.8rem;
+}
+
+/* ---- Hero Image ---- */
+.article-hero-image {
+  margin-bottom: 2rem;
+  border-radius: 12px;
+  overflow: hidden;
+}
+
+.article-hero-image img {
+  width: 100%;
+  height: auto;
+  display: block;
+  object-fit: cover;
+  max-height: 400px;
+}
+
+/* ---- Section Images ---- */
+.article-section-figure {
+  margin: 1rem 0 1.5rem;
+  border-radius: 10px;
+  overflow: hidden;
+  background: #f8f9fa;
+}
+
+.article-section-figure img {
+  width: 100%;
+  height: auto;
+  display: block;
+  object-fit: cover;
+  max-height: 350px;
+}
+
+.article-section-figure figcaption {
+  padding: 0.5rem 1rem;
+  font-size: 0.8rem;
+  color: #888;
+  text-align: center;
+}
+
+/* ---- Article Body ---- */
+.article-section {
+  margin-bottom: 2.5rem;
+  scroll-margin-top: 80px;
+}
+
+.article-section h2 {
+  font-size: 1.35rem;
+  padding-bottom: 0.5rem;
+  margin-bottom: 1rem;
+  border-bottom: 3px solid var(--color-primary, #3b82f6);
+}
+
+.article-section p {
+  line-height: 1.85;
+  margin-bottom: 1rem;
+  color: #333;
+}
+
+.article-h3, .article-h3-bracket {
+  font-size: 1.1rem;
+  margin: 1.5rem 0 0.75rem;
+  padding-left: 0.75rem;
+  border-left: 4px solid var(--color-primary, #3b82f6);
+}
+
+.article-h4 {
+  font-size: 1rem;
+  margin: 1.25rem 0 0.5rem;
+  color: var(--color-primary, #3b82f6);
+}
+
+.article-list, .article-ordered-list {
+  margin: 0.75rem 0 1rem 1.5rem;
+  line-height: 1.8;
+}
+
+.article-list li, .article-ordered-list li {
+  margin-bottom: 0.35rem;
+}
+
+.article-indent-list {
+  margin: 0.5rem 0 1rem 2rem;
+  list-style-type: '→ ';
+  color: #555;
+}
+
+.article-table-wrapper {
+  overflow-x: auto;
+  margin: 1rem 0;
+}
+
+.article-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 0.9rem;
+}
+
+.article-table th, .article-table td {
+  padding: 0.6rem 0.8rem;
+  border: 1px solid #e2e8f0;
+  text-align: left;
+}
+
+.article-table th {
+  background: #f1f5f9;
+  font-weight: 600;
+}
+
+.article-table tr:nth-child(even) {
+  background: #f8fafc;
+}
+
+.article-qa {
+  margin: 1rem 0;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.article-qa-question {
+  background: #eef2ff;
+  padding: 0.75rem 1rem;
+  font-weight: 600;
+}
+
+.article-qa-answer {
+  background: #f8fafc;
+  padding: 0.75rem 1rem;
+  border-left: 4px solid #a5b4fc;
+}
+
+.article-note {
+  background: #fffbeb;
+  border-left: 4px solid #f59e0b;
+  padding: 0.75rem 1rem;
+  margin: 1rem 0;
+  font-size: 0.9rem;
+  border-radius: 0 6px 6px 0;
+}
+
+.article-hr {
+  border: none;
+  border-top: 2px dashed #e2e8f0;
+  margin: 1.5rem 0;
+}
+
+.article-inline-link {
+  color: var(--color-primary, #3b82f6);
+  text-decoration: underline;
+  text-underline-offset: 2px;
+}
+
+.article-inline-link:hover {
+  opacity: 0.7;
+}
+
+/* ---- Navigation ---- */
+.article-nav {
+  margin-top: 2rem;
+  padding-top: 1.5rem;
+  border-top: 1px solid #e2e8f0;
+}
+
+.article-back-link {
+  color: var(--color-primary, #3b82f6);
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.article-back-link:hover {
+  text-decoration: underline;
+}
+
+/* ---- Mobile TOC ---- */
+.article-toc-mobile {
+  background: #f8fafc;
+  border: 1px solid #e2e8f0;
+  border-radius: 10px;
+  padding: 1rem 1.25rem;
+  margin-bottom: 2rem;
+}
+
+.article-toc-title {
+  font-weight: 700;
+  margin-bottom: 0.5rem;
+  font-size: 0.95rem;
+}
+
+.article-toc-list, .article-toc-mobile .article-toc-list {
+  margin: 0;
+  padding-left: 1.25rem;
+  font-size: 0.85rem;
+}
+
+.article-toc-list li {
+  margin-bottom: 0.3rem;
+  line-height: 1.5;
+}
+
+.article-toc-list a {
+  color: #555;
+  text-decoration: none;
+}
+
+.article-toc-list a:hover {
+  color: var(--color-primary, #3b82f6);
+}
+
+/* ============================================
+   SIDEBAR
+   ============================================ */
+.article-sidebar {
+  width: 300px;
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+/* 診断CTA */
+.sidebar-cta {
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  color: #fff;
+  border-radius: 12px;
+  padding: 1.5rem;
+  text-align: center;
+  position: sticky;
+  top: 1rem;
+}
+
+.sidebar-cta-icon {
+  font-size: 2rem;
+  margin-bottom: 0.5rem;
+}
+
+.sidebar-cta-title {
+  font-size: 1.1rem;
+  font-weight: 700;
+  margin-bottom: 0.5rem;
+  color: #fff;
+}
+
+.sidebar-cta-description {
+  font-size: 0.85rem;
+  opacity: 0.9;
+  margin-bottom: 1rem;
+  line-height: 1.5;
+}
+
+.sidebar-cta-button {
+  display: inline-block;
+  background: #fff;
+  color: #667eea;
+  padding: 0.6rem 1.5rem;
+  border-radius: 30px;
+  font-weight: 700;
+  font-size: 0.9rem;
+  text-decoration: none;
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.sidebar-cta-button:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+}
+
+/* 目次（デスクトップ用） */
+.sidebar-toc {
+  background: #f8fafc;
+  border: 1px solid #e2e8f0;
+  border-radius: 10px;
+  padding: 1rem 1.25rem;
+  position: sticky;
+  top: calc(1rem + 280px);
+}
+
+.sidebar-toc-title {
+  font-weight: 700;
+  margin-bottom: 0.5rem;
+  font-size: 0.9rem;
+}
+
+.sidebar-toc-list {
+  margin: 0;
+  padding-left: 1rem;
+  font-size: 0.8rem;
+}
+
+.sidebar-toc-list li {
+  margin-bottom: 0.3rem;
+  line-height: 1.45;
+}
+
+.sidebar-toc-list a {
+  color: #666;
+  text-decoration: none;
+}
+
+.sidebar-toc-list a:hover {
+  color: var(--color-primary, #3b82f6);
+}
+
+/* 人気記事 */
+.sidebar-popular {
+  background: #fff;
+  border: 1px solid #e2e8f0;
+  border-radius: 10px;
+  padding: 1rem 1.25rem;
+}
+
+.sidebar-popular-title {
+  font-weight: 700;
+  margin-bottom: 0.75rem;
+  font-size: 0.9rem;
+}
+
+.sidebar-popular-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.sidebar-popular-list li {
+  border-bottom: 1px solid #f1f5f9;
+  padding-bottom: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.sidebar-popular-list li:last-child {
+  border-bottom: none;
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+
+.sidebar-popular-link {
+  text-decoration: none;
+  display: block;
+}
+
+.sidebar-popular-link:hover .sidebar-popular-text {
+  color: var(--color-primary, #3b82f6);
+}
+
+.sidebar-popular-category {
+  display: inline-block;
+  font-size: 0.65rem;
+  background: #f1f5f9;
+  color: #64748b;
+  padding: 0.1rem 0.4rem;
+  border-radius: 3px;
+  margin-bottom: 0.2rem;
+}
+
+.sidebar-popular-text {
+  display: block;
+  font-size: 0.8rem;
+  color: #333;
+  line-height: 1.4;
+  transition: color 0.2s;
+}
+
+/* ============================================
+   RESPONSIVE
+   ============================================ */
+@media (max-width: 900px) {
+  .article-layout {
+    flex-direction: column;
+  }
+  
+  .article-sidebar {
+    width: 100%;
+    position: static;
+  }
+  
+  .sidebar-toc {
+    display: none; /* モバイルではインライン目次を表示 */
+  }
+  
+  .sidebar-cta {
+    position: static;
+  }
+  
+  .article-header h1 {
+    font-size: 1.4rem;
+  }
+}
+
+@media (min-width: 901px) {
+  .article-toc-mobile {
+    display: none; /* デスクトップではサイドバー目次を表示 */
+  }
+}
