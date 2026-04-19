@@ -234,7 +234,7 @@ function renderContent(content: string, sectionIndex: number): React.ReactNode[]
         !lines[i].trim().startsWith('|') &&
         !lines[i].trim().startsWith('・') &&
         !lines[i].trim().startsWith('- ') &&
-        !lines[i].trim().startsWith('【') &&
+        !(lines[i].trim().startsWith('【') && lines[i].trim().endsWith('】')) &&
         !lines[i].trim().startsWith('### ') &&
         !/^\d+\.\s/.test(lines[i].trim()) &&
         !lines[i].trim().startsWith('→') &&
