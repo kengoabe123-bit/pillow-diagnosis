@@ -323,7 +323,7 @@ export default async function ArticlePage({ params }: PageProps) {
               <div key={index}>
                 <section id={`section-${index}`} className="article-section">
                   <h2>{section.heading}</h2>
-                  {'image' in section && section.image && (
+                  {'image' in section && section.image && !(index === 0 && 'heroImage' in article && article.heroImage) && (
                     <figure className="article-section-figure">
                       <img
                         src={section.image.src}
